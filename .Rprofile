@@ -3,7 +3,7 @@ if (tolower(Sys.getenv('CI')) != 'true') {
 
     options(knitr.package.root.dir = normalizePath('./'))
 
-    options('defaultPackages' = unique(c(getOption('defaultPackages'), 'magrittr', 'tidyverse', 'xml2', 'rvest', 'parallel')));
+    options('defaultPackages' = unique(c(getOption('defaultPackages'), 'magrittr')));
 
 
     # setdiff2 <- function(x,y){setdiff(y,x)}
