@@ -2,6 +2,8 @@
 title: processing raw data to package data
 ---
 
+# preparation
+
 ```{r include=FALSE}
 assertthat::assert_that(
     knitr::current_input() %>% paste0('R-raw/', .) %>% file.exists(),
@@ -14,8 +16,10 @@ dir('data', full.names = T) %>% file.remove()
 rm(list = ls(envir = globalenv(), all = T))
 ```
 
-Process you raw data here.
+# Process raw data
 
+
+# Afterward
 
 ```{r reinstall}
 devtools::test()     # test the new data

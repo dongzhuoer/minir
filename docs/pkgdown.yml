@@ -3,7 +3,4 @@ pkgdown: 1.2.0
 pkgdown_sha: ~
 articles:
   minir: minir.html
-urls:
-  reference: https://dongzhuoer.github.io/minir/reference
-  article: https://dongzhuoer.github.io/minir/articles
 

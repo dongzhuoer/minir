@@ -14,8 +14,4 @@ RoxygenNote: 6.1.1
 Roxygen: list(markdown = TRUE, roclets=c('rd', 'collate', 'namespace'))
 Imports:
     magrittr
-Suggests: 
-    devtools,
-    testthat,
-    roxygen2
 VignetteBuilder: knitr
