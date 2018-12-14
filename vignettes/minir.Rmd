@@ -1,8 +1,8 @@
 ---
 title: "Introduction to minir"
-author: "Vignette Author"
+author: "Zhuoer Dong"
 date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
+output: prettydoc::html_pretty
 vignette: >
   %\VignetteIndexEntry{Introduction to minir}
   %\VignetteEngine{knitr::rmarkdown}
