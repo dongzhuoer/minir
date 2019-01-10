@@ -9,7 +9,7 @@ R package template in Zhuoer's style
 ## initialize
 
 1. rename project folder (you may have already done so before you open me with VSCode)
-1. rename `.Rproj`.
+1. rename `.Rproj`, `vignettes/.Rmd`
 1. replace all `minir` (use VSCode, remember to Save all)
 1. replace package description in `readme.md` & `DESCRIPTION`
 1. enable roxygen2 in `Build & Reload` 
@@ -38,5 +38,5 @@ refer to `vignette('minir')`.
 ## develop
 
 1. Refer to this [post](https://dongzhuoer.github.io/_redirects/develop-upon-my-r-package.html)
-1. you may need `devtools::use_readme_rmd()` for the git "pre-commit" hook
+
 
