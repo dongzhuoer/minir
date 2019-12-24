@@ -1,8 +1,7 @@
 pandoc: '2.9'
 pkgdown: 1.4.1
 pkgdown_sha: ~
-articles:
-  minir: minir.html
+articles: []
 urls:
   reference: https://dongzhuoer.github.io/minir/reference
   article: https://dongzhuoer.github.io/minir/articles
