@@ -4,8 +4,8 @@ Title: R package template in Zhuoer's style
 Version: 0.0.0.9000
 Authors@R: person("Zhuoer", "Dong", email = "dongzhuoer@mail.nankai.edu.cn", 
     role = c("aut", "cre"))
-Description: refer to https://dongzhuoer.github.io/minir
-URL: https://dongzhuoer.github.io/minir, https://github.com/dongzhuoer/minir
+Description: refer to https://github.com/dongzhuoer/minir
+URL: https://pkgdown.dongzhuoer.com/dongzhuoer/minir, https://github.com/dongzhuoer/minir
 BugReports: https://github.com/dongzhuoer/minir/issues
 License: file LICENSE
 Encoding: UTF-8

@@ -35,8 +35,3 @@ remotes::install_github('dongzhuoer/minir');
 
 refer to `vignette('minir')`.
 
-## develop
-
-1. Refer to this [post](https://dongzhuoer.github.io/_redirects/develop-upon-my-r-package.html)
-
-
