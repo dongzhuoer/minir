@@ -13,6 +13,8 @@ R package template in Zhuoer's style
 1. replace all `minir` (use VSCode, remember to Save all)
 1. replace package description in `readme.md` & `DESCRIPTION`
 1. enable roxygen2 in `Build & Reload` 
+1. GitLab add new branch, `dongzhuoer/pkg`
+1. website `pkgdown.Rmd` & `pkgdown.sh`
 1. Git  
    ```bash
    rm -rf .git
