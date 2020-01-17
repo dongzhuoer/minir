@@ -1,8 +1,11 @@
 ---
 title: "Introduction to minir"
 author: "Zhuoer Dong"
-date: "`r Sys.Date()`"
-output: prettydoc::html_pretty
+date: "`2020-01-12 (rendered on `r Sys.Date()`)`"
+output: 
+    prettydoc::html_pretty:
+        toc: true
+        number_sections: true
 vignette: >
   %\VignetteIndexEntry{Introduction to minir}
   %\VignetteEngine{knitr::rmarkdown}
@@ -17,6 +20,14 @@ knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
 library(minir)
 ```
 
-```{r}
-plot(cars)
+# header 1
+
+## header 1.1
+
+```{r cache=T}
+x <- mtcars  # test cache variable
+```
+
+```{r cache=T}
+plot(x)     # test cache plot
 ```

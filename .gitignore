@@ -1,3 +1,11 @@
+# knitr output
+R-raw/*html  
+# vignette (R markdown) default cache directories
+vignettes/*_cache/
+doc/*_files/
+
+#--------------------
+
 # History files
 .Rhistory
 .Rapp.history

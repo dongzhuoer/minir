@@ -2,16 +2,19 @@
 [![Build Status](https://travis-ci.com/dongzhuoer/minir.svg?branch=master)](https://travis-ci.com/dongzhuoer/minir)
 
 
+
 ## Overview
 
 R package template in Zhuoer's style
+
+
 
 ## initialize
 
 1. rename project folder (you may have already done so before you open me with VSCode)
 1. rename `.Rproj`, `vignettes/.Rmd`
 1. replace all `minir` (use VSCode, remember to Save all)
-1. replace package description in `readme.md` & `DESCRIPTION`
+1. replace package description in `readme.md`, `DESCRIPTION`, `R/aaa.R`
 1. enable roxygen2 in `Build & Reload` 
 1. GitLab add new branch, `dongzhuoer/pkg`
 1. website `pkgdown.Rmd` & `pkgdown.sh`
@@ -29,11 +32,12 @@ R package template in Zhuoer's style
 ## Installation
 
 ```r
-if (!('remotes' %in% .packages(T))) install.packages('remotes');
-remotes::install_github('dongzhuoer/minir');
+if (!("remotes" %in% .packages(T))) install.packages("remotes");
+remotes::install_github("dongzhuoer/minir");
 ```
+
+
 
 ## Usage
 
-refer to `vignette('minir')`.
-
+refer to `vignette("minir")`.

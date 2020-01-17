@@ -1,5 +1,7 @@
 destination: pkgdown
 url: https://pkgdown.dongzhuoer.com/dongzhuoer/minir
+toc: 
+    depth: 2
 
 authors:
     Zhuoer Dong:

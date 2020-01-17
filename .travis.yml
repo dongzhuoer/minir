@@ -2,7 +2,7 @@ dist: bionic
 language: minimal
 cache: 
   directories: $HOME/.local/lib/R/site-library
-before_script: repo=`echo $TRAVIS_REPO_SLUG | sed 's/dongzhuoer\///'`
+before_script: repo=`echo $TRAVIS_REPO_SLUG | sed "s/dongzhuoer\///"`
 jobs:
   include: 
     - stage: test
