@@ -10,15 +10,15 @@
     "tasks": [
         {
             "label": "view GitHub",
-            "command": "firefox https://github.com/dongzhuoer/${workspaceFolderBasename}",
+            "command": "firefox https://github.com/dongzhuoer/${workspaceFolderBasename} 2> /dev/null",
         },
         {
             "label": "view local pkgdown",
-            "command": "firefox pkgdown/index.html",
+            "command": "firefox pkgdown/output/index.html 2> /dev/null",
         },
         {
             "label": "view online pkgdown",
-            "command": "firefox https://pkgdown.dongzhuoer.com/dongzhuoer/${workspaceFolderBasename}",
+            "command": "firefox https://pkgdown.dongzhuoer.com/dongzhuoer/${workspaceFolderBasename} 2> /dev/null",
         },
         {
             "label": "document",
@@ -34,7 +34,7 @@
         },
         {
             "label": "pkgdown",
-            "command": "Rscript -e 'pkgdown::build_site()'",
+            "command": "Rscript -e 'pkgdown::build_site(lazy = T)'",
             "dependsOn": [
                 "document"
             ],
